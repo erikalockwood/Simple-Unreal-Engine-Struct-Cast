@@ -16,20 +16,6 @@ FParentStruct parent = *castStruct; //Dereference the pointer from the cast
 
 ```
 
-A couple of things to note: 
-
-1. This casting does not allow for smart null checking reflection, meaning you cant 
-
-```
-FParentStruct* parent = Cast<FParentStruct>(*child);
-
-if(parent)
-{
-  //logic
-}
-
-```
-
-2. Its wise to go about using this with caution, because struct pointers are not handled by garbage collection and you will run into issues if you dont properly dereference struct pointers
+Something to note: Its wise to go about using this with caution, because struct pointers are not handled by garbage collection and you will run into issues if you dont properly dereference struct pointers
 
 Enjoy! Created this as a system to write more generic style save functions, if you have any issues let me know! 
