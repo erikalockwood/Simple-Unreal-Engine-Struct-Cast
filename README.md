@@ -1,4 +1,4 @@
-Simple casting method for USTRUCTs within unreal engine. To setup all you have to do is code the code from Struct-Cast and paste it in an accessible area within your project. 
+Simple casting method for USTRUCTs within unreal engine. To setup all you have to do is copy the code from Struct-Cast and paste it in an accessible area within your project. I recommend setting it up as a static function.
 
 To use: you'd use it like a regular cast but its important you make your structs a pointer first and then dereference them when its time to use
 
